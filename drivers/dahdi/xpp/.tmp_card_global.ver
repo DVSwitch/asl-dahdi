@@ -1,0 +1,3 @@
+__crc_xpp_register_request = 0xce00838f;
+__crc_xpp_ram_request = 0xba9efdba;
+__crc_run_initialize_registers = 0x716fefbd;

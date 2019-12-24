@@ -1,0 +1,6 @@
+ifdef DAHDI_USE_MMX
+EXTRA_CFLAGS += -DUSE_MMX
+endif
+
+# An explicit 'obj-m' , unlike the Makefile
+obj-m += echo.o
