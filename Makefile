@@ -47,7 +47,7 @@ ifeq (yes,$(HAS_KSRC))
   HOTPLUG_FIRMWARE:=$(shell if grep -q '^CONFIG_FW_LOADER=[ym]' $(KCONFIG); then echo "yes"; else echo "no"; fi)
 endif
 
-HOTPLUG_FIRMWARE=no
+# HOTPLUG_FIRMWARE=no
 
 MODULE_ALIASES:=wcfxs wctdm8xxp wct2xxp
 
